@@ -16,14 +16,16 @@
         <div class="right-login">
             <div class="card-login">
                 <h1>Login</h1>
-                <div class="textfield">
-                    <label for="usuario">Usuário</label>
-                    <input id="usuario" type="text" name="usuario" placeholder="Usuário">
-                </div>
-                <div class="textfield">
-                    <label for="senha">Senha</label>
-                    <input id="senha" type="password" name="senha" placeholder="Senha">
-                </div>
+                <form action="#" class="textfield" method="post">
+                    <label for="iusuario">Usuário</label>
+                    <input id="iusuario" name="usuario" type="text" name="usuario" placeholder="Usuário" maxlength="15" minlength="5">
+                </form>
+                
+                <form action="#" class="textfield" method="post">
+                    <label for="isenha">Senha</label>
+                    <input id="isenha" name="senha" type="password" name="senha" placeholder="Senha" min="8" max="15">
+                </form>
+               
                 <button class="btn-login">Login</button>
             </div>
         </div>
